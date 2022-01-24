@@ -1,6 +1,48 @@
 {% extends 'myapp/basecode/base.html' %}
 {% load static %}
 {% block content %}
+<section>
+        <div class="text-center">
+    <div class="col-sm-12 ">
+<hr>
+        <h1 style="color:blue;"><u>Recommended Courses</u></h1>
+    <div class="row">
+    <div class="col-sm-4">
+ <div class="card" style="width: 18rem;">
+  <img src="{% static 'myapp/images/youtube3.png'%}" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Basic Python Concept</h5>
+    <p class="card-text">Python tutorial provides basic and advanced concepts of Python. Our Python tutorial is designed for beginners and professionals. Python is a simple, ....</p>
+    <a href="#" class="btn btn-primary">Start Watching..</a>
+  </div>
+</div>
+    </div>
+
+       <div class="col-sm-4">
+       <div class="card" style="width: 18rem;">
+  <img src="{% static 'myapp/images/youtube1.png'%}" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Machine Learning Algorithms</h5>
+    <p class="card-text">At its most basic, machine learning uses programmed algorithms that receive and analyse input data to predict output values within an acceptable range..</p>
+    <a href="#" class="btn btn-primary">Start Watching..</a>
+  </div>
+</div>
+    </div>
+
+        <div class="col-sm-4">
+
+    <div class="card" style="width: 18rem;">
+  <img src="{% static 'myapp/images/youtube2.png'%}" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">What is Data science?</h5>
+    <p class="card-text">Data scientists examine which questions need answering and where to find the related data. They have business acumen and analytical skills as well as the ....</p>
+    <a href="#" class="btn btn-primary">Start Watching ..</a>
+  </div>
+</div>
+
+    </div>
+    </div>
 
 
+</section>
 {% endblock content %}
