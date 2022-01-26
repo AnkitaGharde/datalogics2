@@ -1,6 +1,25 @@
 {% extends 'myapp/basecode/base.html' %}
 {% load static %}
 {% block content %}
+
+
+<section class="hero-banner bg-light py-5">
+    <div class="container">
+        <div class="row row align-items-center">
+            <div class="col-lg-5 offset-lg-1 order-lg-1">
+                <img src="{% static 'myapp/images/youtube3.PNG'%}" class="img-fluid" alt="Web Development">
+            </div>
+            <div class="col-lg-6">
+                <h1 class="mt-3"><b style="color:blue;">Let's Learn  about Languages</b></h1>
+                <p class="lead text-secondary my-5"><b style="color:black;">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. Point of using <b style="color:green;">EngineerBro</b> is that it has a more-or-less normal distribution of letters.</b></p>
+                <a href="#" class="btn btn-outline-primary btn-lg border text-center">Learn More ...</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
 <section>
         <div class="text-center">
     <div class="col-sm-12 ">
@@ -9,7 +28,7 @@
     <div class="row">
     <div class="col-sm-4">
  <div class="card" style="width: 18rem;">
-  <img src="{% static 'myapp/images/youtube3.png'%}" class="card-img-top" alt="...">
+  <img src="{% static 'myapp/images/youtube3.PNG'%}" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Basic Python Concept</h5>
     <p class="card-text">Python tutorial provides basic and advanced concepts of Python. Our Python tutorial is designed for beginners and professionals. Python is a simple, ....</p>
@@ -20,7 +39,7 @@
 
        <div class="col-sm-4">
        <div class="card" style="width: 18rem;">
-  <img src="{% static 'myapp/images/youtube1.png'%}" class="card-img-top" alt="...">
+  <img src="{% static 'myapp/images/youtube1.PNG'%}" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Machine Learning Algorithms</h5>
     <p class="card-text">At its most basic, machine learning uses programmed algorithms that receive and analyse input data to predict output values within an acceptable range..</p>
@@ -32,7 +51,7 @@
         <div class="col-sm-4">
 
     <div class="card" style="width: 18rem;">
-  <img src="{% static 'myapp/images/youtube2.png'%}" class="card-img-top" alt="...">
+  <img src="{% static 'myapp/images/youtube2.PNG'%}" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">What is Data science?</h5>
     <p class="card-text">Data scientists examine which questions need answering and where to find the related data. They have business acumen and analytical skills as well as the ....</p>
